@@ -1,0 +1,85 @@
+@media (max-width: 1081px){	
+	body{
+		background-image: url('../img/bg-sm.jpg');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	.tamanho_1{
+		height: 108px;
+		width: 108px;
+	}
+	.tamanho_2{
+		height: 118px;
+		width: 118px;
+	}
+	.tamanho_3{
+		height: 138px;
+		width: 138px;
+	}
+	.lado_b{
+		transform: scaleX(-1);
+	}
+	.painel {
+		position: absolute;
+		width: 190px;
+		padding: 10px;
+		left: 0px;
+		bottom: 0px;
+		border-top :solid 1px #fff;
+		background-color: #fff;
+		opacity: 0.7;
+	}
+	
+	.vidas {
+		float: left;
+	}
+	
+	.cronometro {
+		float: left;
+		font-size: 20px;
+		font-weight: bold;
+	}
+}
+
+@media(min-width: 1082px){
+	body{
+		background-image: url('../img/bg.jpg');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	.tamanho_1{
+		height: 38px;
+		width: 38px;
+	}
+	.tamanho_2{
+		height: 68px;
+		width: 68px;
+	}
+	.tamanho_3{
+		height: 88px;
+		width: 88px;
+	}
+	.lado_b{
+		transform: scaleX(-1);
+	}
+	.painel {
+		position: absolute;
+		width: 190px;
+		padding: 10px;
+		left: 0px;
+		bottom: 0px;
+		border-top :solid 1px #fff;
+		background-color: #fff;
+		opacity: 0.7;
+	}
+
+	.vidas {
+		float: left;
+	}
+
+	.cronometro {
+		float: left;
+		font-size: 20px;
+		font-weight: bold;
+	}
+}
